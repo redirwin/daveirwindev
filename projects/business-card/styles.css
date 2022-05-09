@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     background: #F1F5F8;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   
 }
 
 .card {
@@ -22,8 +22,51 @@ body {
     border-radius: 50%;
 }
 
+.card-text {
+    text-align: center;
+    max-width: 280px;
+    margin-top: 8px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Sans-Serif; 
+}
+
+h1 {
+    font-size: 32px; 
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p, .message-me {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    line-height: 1.5rem;
+    margin-bottom: 0;
+}
+
+.message-me {
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 24px;
+    background: #45425A;
+    color: white;
+
+}
+
 .social-icons {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .social-icons ul {
@@ -37,6 +80,7 @@ body {
 .social-icons img {
     width: 40px;
     margin: 16px;
+    padding: 0;
 }
 
 
