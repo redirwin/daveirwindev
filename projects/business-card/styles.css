@@ -57,7 +57,7 @@ p {
 .message-me {
     text-decoration: none;
     padding: 8px 16px;
-    margin: 24px;
+    margin: 40px 0;
     background: #45425A;
     color: white;
 
@@ -67,6 +67,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+ 
 }
 
 .social-icons ul {
@@ -78,8 +79,8 @@ p {
 }
 
 .social-icons img {
-    width: 40px;
-    margin: 16px;
+    width: 32px;
+    margin: 0 16px;
     padding: 0;
 }
 
