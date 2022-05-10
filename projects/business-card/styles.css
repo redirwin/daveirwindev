@@ -8,6 +8,19 @@ body {
    
 }
 
+.breadcrumbs {
+    position: fixed;
+    bottom: 16px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    width: 100%;
+}
+
+.breadcrumbs a {
+    padding: 16px 8px;
+    text-decoration: none;
+}
+
 .card {
     display: flex;
     flex-direction: column;
