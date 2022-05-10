@@ -84,4 +84,29 @@ p {
     padding: 0;
 }
 
+/* REPONSIVE STYLES FOR LARGER SCREENS */
 
+@media only screen and (min-width: 769px) {
+    
+.card {
+    flex-direction: row;
+    height: 360px;
+    max-width: 700px;
+    border: 1px solid black;
+}
+
+.avatar {
+    border-radius: 0;
+    height: 360px;
+    object-fit: contain;
+    margin: 3px solid red;
+}
+
+
+
+
+
+
+
+
+}
