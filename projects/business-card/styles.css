@@ -134,7 +134,7 @@ main {
 .hidey-row a, .social-icons img {
     height: 32px;
     border: none;
-    margin: 0 4px;
+    margin: 0;
 }
 
 /* FLEX UP AND SPACE TEXT CONTENT */
