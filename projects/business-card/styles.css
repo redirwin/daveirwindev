@@ -5,6 +5,7 @@
 
 body {
     height: 100vh;
+    min-width: 360px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,10 +13,6 @@ body {
     justify-content: center;
     background: #F1F5F8;
     color: #45425A;
-}
-
-main {
-    max-width: 400px;
 }
 
 /* ROW 1 STYLES */
