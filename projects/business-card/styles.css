@@ -1,3 +1,65 @@
-img {
-    border: 1px solid red;
+* {
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+  }
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1F5F8;
+
+}
+
+main {
+    max-width: 400px;
+}
+
+/* ROW 1 STYLES */
+
+.row-1 {
+    text-align: center;
+}
+
+.row-1 img {
+    height: 190px;
+    border-radius: 100%;
+    margin-bottom: 32px;
+}
+
+.row-1 h1, .row-1 h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', Sans-Serif;
+}
+
+.row-1 h1 {
+    margin: 0;
+}
+
+.row-1 h2 {
+    margin: 0 0 42px 0;
+}
+
+.row-1 blockquote {
+    margin: 0 0 42px 0;
+    font-size: 1.25rem;
+}
+
+/* ROW 2 STYLES */
+
+.row-2 {
+    text-align: center;
+}
+
+.contact-me {
+    display: block;
+    margin: 0 0 42px 0;
+}
+
+.social-icons img {
+    height: 40px;
 }
