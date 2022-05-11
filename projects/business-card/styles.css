@@ -38,11 +38,11 @@ body {
 }
 
 .row-1 h2 {
-    margin: 0 0 42px 0;
+    margin: 0 0 32px 0;
 }
 
 .row-1 blockquote {
-    margin: 0 0 42px 0;
+    margin: 0 0 40px 0;
     font-size: 1.2rem;
     max-width: 300px;
 }
@@ -58,13 +58,11 @@ body {
 
 .contact-me {
     display: block;
-    margin: 0 0 42px 0;
+    margin: 0 0 40px 0;
     text-decoration: none;
     color: #45425A;
     border: 1px solid #45425A;
-    border-radius: 4px;
     padding: 8px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .contact-me:active {
@@ -76,4 +74,98 @@ body {
 .social-icons img {
     height: 48px;
     margin: 0 8px;
+}
+
+.social-icons:hover {
+    cursor: pointer;
+}
+
+/* HIDEY-ROW NOT DISPLAYED ON SMALLER SCREENS */
+
+.hidey-row {
+    display: none;
+}
+
+/* PROGRESSIVE STYLES FOR LARGER DEVICES */
+
+@media only screen and (min-width: 768px) {
+
+main {
+    height: 304px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ROW 1 PROGRESSIVE STYLES */
+    
+.row-1 {
+    display: flex;
+}
+
+.row-1 img {
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 0;
+}
+
+.row-1 .text-content {
+    text-align: left;
+    padding-left: 32px;
+    display: flex;
+}
+
+.row-1 h2 {
+    margin: 0;
+}
+
+.row-1 blockquote {
+    margin: 0;
+}
+
+/* DISPLAY HIDEY-ROW */
+
+.hidey-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hidey-row a, .social-icons img {
+    height: 32px;
+    border: none;
+    margin: 0 4px;
+}
+
+/* FLEX UP AND SPACE TEXT CONTENT */
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* CLEAN UP CONTACT BUTTON */
+
+a.contact-me {
+    padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #45425A;
+    border: 1px solid #45425A;
+    padding: 8px;
+}
+
+a.contact-me:hover {
+    cursor: pointer;
+}
+
+/* ROW 2 NOT DISPLAYED ON SMALLER SCREENS */
+
+.row-2 {
+    display: none;
+}
+
+
 }
