@@ -65,16 +65,18 @@ main {
     text-decoration: none;
     color: #45425A;
     border: 1px solid #45425A;
+    border-radius: 4px;
     padding: 8px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .contact-me:active {
     box-shadow: none;
-    background-color: #FF914D;
-    color: #45425A;
+    background-color: #45425A;
+    color: white;
 }
 
 .social-icons img {
-    height: 40px;
+    height: 48px;
+    margin: 0 8px;
 }
